@@ -46,6 +46,10 @@ Exposed service version may assist attackers in targeted reconnaissance.
 - Keep nginx updated
 - Minimize banner disclosure
 
+### 📷 Evidence – Nmap Scan
+
+![Nmap Scan](screenshots/nmap1.png)
+
 ---
 
 ## 🔹 Finding 02 – Missing Security Headers (High)
@@ -67,6 +71,10 @@ Exposed service version may assist attackers in targeted reconnaissance.
 - Implement HTTPS
 - Configure all required security headers
 
+### 📷 Evidence – Security Headers Report
+
+![Security Headers](screenshots/Headers_Checking.png)
+
 ---
 
 ## 🔹 Finding 03 – Insecure Session Cookie (High)
@@ -87,11 +95,9 @@ Exposed service version may assist attackers in targeted reconnaissance.
 - Configure SameSite attribute
 - Enforce HTTPS
 
----
+### 📷 Evidence – Cookie Configuration
 
-# 📷 Evidence
-
-(Screenshots will be displayed below)
+![Cookie Analysis](screenshots/dev_cookies.png)
 
 ---
 
